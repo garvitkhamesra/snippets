@@ -23,7 +23,7 @@
 hs_err_pid*
 
 #Gradle temporary files
-snippets/export_csv_db_java/target/
+export_csv_db_java/target/
 
 #Eclipse files
 **/.project
@@ -33,9 +33,9 @@ blog/bin/
 **/.tern-project
 
 #IntelliJ files
-**/snippets/export_csv_db_java/*.iml
-**/snippets/export_csv_db_java/.idea
-**/snippets/export_csv_db_java/.gradle
+**/export_csv_db_java/*.iml
+**/export_csv_db_java/.idea
+**/export_csv_db_java/.gradle
 
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml

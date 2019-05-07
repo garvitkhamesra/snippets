@@ -32,14 +32,11 @@ export_csv_db_java/target/
 blog/bin/
 **/.tern-project
 
-#IntelliJ files
-**/export_csv_db_java/*.iml
-**/export_csv_db_java/.idea
-**/export_csv_db_java/.gradle
 
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 .mvn/
 mvnw
-mvnw.cmd
+mvnw.cmdcsv_to_mysql_db_java/.idea/
+csv_to_mysql_db_java/target/

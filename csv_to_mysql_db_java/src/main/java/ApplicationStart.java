@@ -16,7 +16,6 @@ import java.util.Properties;
 /**
  * Created By: garvit
  * Date: 2/5/19
- * Package: PACKAGE_NAME;
  **/
 
 public class ApplicationStart {
@@ -24,7 +23,9 @@ public class ApplicationStart {
     public static void main(String[] args) {
 
         try {
-            InputStream inputStream = new FileInputStream("/home/garvit/personal/snippets/export_csv_db/src/main/resources/database.properties");
+            // TODO : File name with relative path
+            ApplicationStart applicationStart = new ApplicationStart();
+            InputStream inputStream = applicationStart.getInputStream();
             Properties properties = new Properties();
             properties.load(inputStream);
 
@@ -48,5 +49,10 @@ public class ApplicationStart {
         } catch (ExportCSVTODBException e) {
             e.printStackTrace();
         }
+    }
+
+    private InputStream getInputStream() {
+        return this.getClass().getClassLoader()
+                .getResourceAsStream("database.properties");
     }
 }

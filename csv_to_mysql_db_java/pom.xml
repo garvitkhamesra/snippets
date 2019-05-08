@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>labrats.com</groupId>
-    <artifactId>export_csv_db</artifactId>
+    <artifactId>csv_to_mysql_db_java</artifactId>
     <version>0.0.1</version>
 
     <dependencies>

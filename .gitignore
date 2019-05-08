@@ -38,5 +38,9 @@ blog/bin/
 hs_err_pid*
 .mvn/
 mvnw
-mvnw.cmdcsv_to_mysql_db_java/.idea/
+mvnw.cmd
+csv_to_mysql_db_java/.idea/
 csv_to_mysql_db_java/target/
+csv_to_es_java/.idea/
+csv_to_es_java/target/
+

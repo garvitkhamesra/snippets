@@ -43,4 +43,5 @@ csv_to_mysql_db_java/.idea/
 csv_to_mysql_db_java/target/
 csv_to_es_java/.idea/
 csv_to_es_java/target/
-
+csv_to_mongo_node/.idea/
+csv_to_mongo_node/node_modules/
